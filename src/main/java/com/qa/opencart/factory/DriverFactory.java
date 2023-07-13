@@ -60,7 +60,7 @@ public class DriverFactory {
 		}
 		else
 		{
-			System.out.println("Please provide the correct Browser");
+			System.out.println("Please provide the correct Browser name");
 		}
 		getDriver().manage().deleteAllCookies();
 		getDriver().manage().window().maximize();		
