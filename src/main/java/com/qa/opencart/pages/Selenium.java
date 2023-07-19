@@ -1,6 +1,6 @@
 package com.qa.opencart.pages;
 
-public class Orderpage {
+public class Selenium {
 	
 	int i=10;
 	
