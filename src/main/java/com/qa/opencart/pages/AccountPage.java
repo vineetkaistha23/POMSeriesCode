@@ -29,7 +29,7 @@ public class AccountPage {
 	
 	public String getAccPageTitle() {
 		String title=eleUtil.waitForTitleContainsAndFetch(AppConstants.DEFAULT_MEDIUM_TIME_OUT, AppConstants.ACCOUNTPAGE_PAGE_TITLE_VALUE);
-		System.out.println("The title of the page is--"+ title);
+		System.out.println("The title of the page is that--"+ title);
 		return title;
 		
 	}
